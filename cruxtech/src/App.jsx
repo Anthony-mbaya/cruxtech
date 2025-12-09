@@ -1,6 +1,6 @@
 function App() {
   return(
-    <div>
+    <div className="bg-hero_bg">
       <h1>hello</h1>
     </div>
   )
