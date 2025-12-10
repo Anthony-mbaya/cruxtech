@@ -11,7 +11,7 @@
     @apply absolute inset-0 bg-black/35
   }
   .navbar{
-    @apply flex flex-row justify-around items-center mx-auto pt-10 pb-7 fixed w-full top-0 left-0 z-50 bg-white/30 
+    @apply flex flex-row justify-around items-center mx-auto pt-10 pb-7 fixed w-full top-0 left-0 z-50 bg-slate-800/30 
   }
   .orgname{
     @apply w-6/12 text-center text-white font-bold text-4xl
@@ -31,12 +31,84 @@
 
  
   .main_display{
-    @apply fixed top-40 left-10 z-50 flex flex-col gap-10 w-6/12 border-2 pt-20 pb-20
+    @apply relative top-40 left-10 z-30 flex flex-col gap-10 w-6/12 pt-20 pb-20
   }
   .main_display .text{
     @apply text-7xl text-white font-extrabold text-center
   } 
   .main_display .display1_btn{
+    @apply bg-[#FA8072]/60 text-white rounded px-10 py-3 w-fit mx-auto font-bold cursor-pointer
+  }
+
+  .service_scroll{
+    @apply absolute bottom-10 left-[30%] flex overflow-x-auto snap-x snap-mandatory space-x-7 scroll-smooth w-3/6 z-30
+  }
+  .service{
+    @apply snap-center shrink-0 w-80 bg-slate-200/70 rounded-xl flex flex-col justify-center items-center px-2 py-3 gap-3
+  }
+  .service h2{
+    @apply text-3xl font-bold text-center h-2/4
+  }
+  .service p{
+    @apply text-center h-1/4
+  }
+  .service button{
+    @apply bg-[#FA8072]/50 h-1/4 px-5 py-2 rounded cursor-pointer
+  }
+
+  .services_page{
+    @apply bg-white h-screen
+  }
+  .our_services_title{
+    @apply text-black text-center pt-30 pb-7 text-4xl
+  }
+  .service1{
+    @apply flex place-content-between flex-row w-6/12
+  }
+  .service1_img{
+    @apply bg-[url('/src/assets/web_dev_img.png')] bg-center bg-cover h-100 w-1/2
+  }
+  .service1 .details{
+    @apply w-1/2 flex flex-col gap-3 px-3 
+  }
+  .service1 .details h1{
+    @apply text-3xl text-center pt-2 pb-2
+  }
+  .service1 .details h2{
+    @apply text-xl bg-[#FA8072] py-2 text-center rounded-xl
+  }
+  .service1 .details ul{
+    @apply mx-auto 
+  }
+  .service1 .details ul li{
+    @apply list-disc text-lg
+  }
+  .service1 .details button{
+    @apply bg-[#FA8072]/60 text-white rounded px-10 py-3 w-fit mx-auto font-bold cursor-pointer
+  }
+
+  .service2{
+    @apply flex place-content-between flex-row w-6/12 absolute right-0
+  }
+  .service2_img{
+    @apply bg-[url('/src/assets/cv_writing.jpg')] bg-center bg-cover h-100 w-1/2
+  }
+  .service2 .details{
+    @apply w-1/2 flex flex-col gap-3 px-3 
+  }
+  .service2 .details h1{
+    @apply text-3xl text-center pt-2 pb-2
+  }
+  .service2 .details h2{
+    @apply text-xl bg-[#FA8072] py-2 text-center rounded-xl
+  }
+  .service2 .details ul{
+    @apply mx-auto 
+  }
+  .service2 .details ul li{
+    @apply list-disc text-lg
+  }
+  .service2 .details button{
     @apply bg-[#FA8072]/60 text-white rounded px-10 py-3 w-fit mx-auto font-bold cursor-pointer
   }
 }
