@@ -13,4 +13,6 @@ Technical services website
 	3. npm run dev
 	4. git init, git add ., git commit -am ""
 # installing tailwind(use their docs)
-	1. external tailwindcss at src/index.css
+	1. external tailwindcss at src/index.css only bg img internal
+# at src
+	1. create components, pages folder

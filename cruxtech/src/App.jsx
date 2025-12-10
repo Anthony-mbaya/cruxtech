@@ -1,6 +1,7 @@
+// this is where all pages are integrated
 function App() {
   return(
-    <div className="bg-hero_bg">
+    <div>
       <h1>hello</h1>
     </div>
   )
