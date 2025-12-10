@@ -2,6 +2,27 @@
 
 @layer base {
   body {
-    @apply m-0 p-0 bg-[url('/src/assets/bg.jpg')] text-white;
+    @apply m-0 p-0
+  }
+  .main_section{
+    @apply bg-[url('/src/assets/bg.jpg')] bg-center bg-cover mx-auto h-screen
+  }
+  .dark_bg{
+    @apply absolute inset-0 bg-black/35
+  }
+  .navbar{
+    @apply flex flex-row justify-around items-center mx-auto pt-10 pb-7 fixed w-full top-0 left-0 z-50 bg-white/30 
+  }
+  .orgname{
+    @apply w-6/12 text-center text-white font-bold text-4xl
+  }
+  .nav_btns{
+    @apply w-6/12 flex justify-center
+  }
+  .nav_btns ul{
+    @apply flex flex-row justify-center items-center gap-7 w-fit
+  }
+  .nav_btns ul li{
+    @apply text-white w-26 font-semibold text-center rounded cursor-pointer bg-[#FA8072]/40 pt-1.5 pb-1.5
   }
 }

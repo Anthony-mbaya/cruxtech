@@ -1,8 +1,9 @@
 // this is where all pages are integrated
+import { MainPage } from "./pages/mainpage"
 function App() {
   return(
     <div>
-      <h1>hello</h1>
+      <MainPage />
     </div>
   )
 }
