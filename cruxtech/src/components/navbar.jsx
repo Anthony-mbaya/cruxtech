@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 export function Navbar(){
     return(
         <div className="navbar">
@@ -5,8 +6,8 @@ export function Navbar(){
                 <h1>CrUxTeCh Services</h1>
             </div>
             <div className="nav_btns">
-                <ul>
-                    <li>Home</li>
+                <ul> 
+                    <Link><li>Home</li></Link>
                     <li>Services</li>
                     <li>About</li>
                     <li>Contact</li>

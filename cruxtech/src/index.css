@@ -25,4 +25,18 @@
   .nav_btns ul li{
     @apply text-white w-26 font-semibold text-center rounded cursor-pointer bg-[#FA8072]/40 pt-1.5 pb-1.5
   }
+  .nav_btns ul li:hover{
+    @apply bg-[#FA8072]
+  }
+
+ 
+  .main_display{
+    @apply fixed top-40 left-10 z-50 flex flex-col gap-10 w-6/12 border-2 pt-20 pb-20
+  }
+  .main_display .text{
+    @apply text-7xl text-white font-extrabold text-center
+  } 
+  .main_display .display1_btn{
+    @apply bg-[#FA8072]/60 text-white rounded px-10 py-3 w-fit mx-auto font-bold cursor-pointer
+  }
 }
